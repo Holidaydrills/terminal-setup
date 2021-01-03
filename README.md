@@ -1,6 +1,6 @@
 # The Fancy Terminal
 This repository is my proposal for a fancy terminal you will like to use. You will have this fancy looking terminal when you finished all steps:  
-<img src="./resources/fancy-terminal.png" alt="Image of the resulting style of the terminal"
+<img src="resources/fancy-terminal.png" alt="Image of the resulting style of the terminal"
 	title="The fancy terminal" width="90%"/>
 
 
@@ -76,9 +76,9 @@ The installation wizard should now start and you can easily choose the options y
 
 ### 4.4. Fix potential warnings
 It can happen that oh-my-zsh is complaining about some wrongly set permissions on the folders `/usr/local/share/zsh` and `/usr/local/share/zsh/site-functions`:  
-<img src="./resources/oh-my-zsh-warning.png" alt="Image of the resulting style of the terminal"
+<img src="resources/oh-my-zsh-warning.png" alt="Image of the resulting style of the terminal"
 	title="The fancy terminal" width="90%"/>  
-    
+
 In that case open the `.zshrc` file in your home directory and add `ZSH_DISABLE_COMPFIX=true` **before** `source $ZSH/oh-my-zsh.sh`.  
 For more information about that warning have a look at [this github issue](https://github.com/ohmyzsh/ohmyzsh/issues/6835).
 
